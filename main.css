@@ -1,0 +1,45 @@
+.tabs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header {
+    height: 80px;
+    background-color: grey;
+}
+
+.project-tab {
+    padding: 10px;
+    margin: 25px;
+    width: 10vw;
+}
+
+.display-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #dddddd;
+    display: flex;
+}
+
+.project-about h1 {
+    margin: 10px;
+    padding:10px;
+}
+
+.project-about {
+    display: inline-block;
+    width: 50%;
+}
+
+.project-image-container {
+    display: inline-block;
+    width: 50%;
+    border-radius: 30% 0% 0% 30% / 50% 0% 0% 50%;
+    overflow: hidden;
+}
+
+.project-image {
+    transform: translateX(-200px);
+}
+
