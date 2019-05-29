@@ -17,15 +17,32 @@
 }
 
 .header h1 {
-    padding: 10px;
-    margin: 10px;
-    margin-left: 20px;
+    padding: 0px 10px 0 10px;
+    margin: 2px 10px 0 20px;
     font-size: 28px;
 }
 
-.header h1 {
+.header h1:hover {
     user-select: none;
     cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 14px;
+}
+
+.info h3 {
+    margin: 0 5px 0 5px;
 }
 
 .toolbar {
@@ -53,7 +70,7 @@
     color: black;
     font-size: 20px;
     height: 20px;
-    width: 30px;
+    width: 34px;
 }
 
 .project-tab {

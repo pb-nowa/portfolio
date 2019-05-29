@@ -10,7 +10,15 @@ class Root extends React.Component {
         <HashRouter>
             <div className="main">
                 <div className="header">
-                    <h1>PRESTON NOWAKOWSKI</h1>
+                    <div className="contact">
+                        <h1>PRESTON NOWAKOWSKI</h1>
+                        <div className="info">
+                            <h3>(925)321-9577</h3>
+                            <h3>|</h3>
+                            <h3>pb.nowa@gmail.com</h3>
+                        </div>
+                    </div>
+
                     <ul className="toolbar">
                         <Link to="/about">
                             <h2>ABOUT</h2>
