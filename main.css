@@ -18,7 +18,7 @@
 
 .header h1 {
     padding: 0px 10px 0 10px;
-    margin: 2px 10px 0 20px;
+    margin: 2px 10px 0 15px;
     font-size: 28px;
 }
 
@@ -177,4 +177,48 @@
 
 .explore:hover {
     background-color: grey;
+}
+
+.about-page-container {
+    display: flex;
+    height: calc(100% - 140px);
+}
+
+.about-left {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(241, 218, 212);
+}
+
+.about-right {
+    width: 50%;
+    height: 100%;
+    background-color:rgb(251, 239, 198);
+}
+
+.about-header-left {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    height: 60px;
+    background-color: #EF7352;
+}
+
+.about-header-left h1 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.about-header-right {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    height: 60px;
+    background-color: #FBDA6C;
+}
+
+.footer {
+    background-color: #6CC3C1;
+    height: 60px;
+    width: 100%;
 }

@@ -27,10 +27,8 @@ class Root extends React.Component {
                             <h2>PROJECTS</h2>
                         </Link>
                         <a className="fab fa-linkedin-in" href="https://github.com/pb-nowa">
-                            {/* <img className="icon" src="https://raw.githubusercontent.com/pb-nowa/portfolio/master/images/main.png" alt="github"/> */}
                         </a>
                         <a className="fab fa-github" href="https://www.linkedin.com/in/preston-nowakowski/">
-                            {/* <img className="icon" src="https://raw.githubusercontent.com/pb-nowa/portfolio/master/images/in.jpg" alt="linkedin"/> */}
                         </a>
                     </ul>
                 </div>
