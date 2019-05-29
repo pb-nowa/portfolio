@@ -7,7 +7,7 @@ class Granular extends React.Component {
         return (
             <>
                 <Tabs />
-                <div className="display-container">
+                <div className="display-container granular">
                     <div className="project-about">
                         <div className="about-top">
                             <h1>GRANULAR SYNTH</h1>

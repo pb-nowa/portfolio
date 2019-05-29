@@ -109,11 +109,19 @@
     width: 100%;
     height: calc(100% - 120px);
     overflow: hidden;
-    /* background-color: #c2cfe5; */
-    /* background-color:rgb(251, 239, 198); */
-    background-color:rgb(203, 230, 228);
-    /* background-color: rgb(241, 218, 212); */
     display: flex;
+}
+
+.granular {
+    background-color:rgb(203, 230, 228);
+}
+
+.alldays {
+    background-color:rgb(251, 239, 198);
+}
+
+.pokenalysis {
+    background-color: rgb(241, 218, 212);
 }
 
 .project-about {

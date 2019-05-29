@@ -7,7 +7,7 @@ class Alldays extends React.Component {
         return (
             <>
                 <Tabs />
-                <div className="display-container">
+                <div className="display-container alldays">
                     <div className="project-about">
                         <div className="about-top">
                             <h1>ALLDAYS</h1>

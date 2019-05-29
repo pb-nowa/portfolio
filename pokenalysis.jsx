@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Tabs from './tabs_container';
 
@@ -7,7 +8,7 @@ class Pokenalysis extends React.Component {
         return (
             <>
                 <Tabs />
-                <div className="display-container">
+                <div className="display-container pokenalysis">
                     <div className="project-about">
                         <div className="about-top">
                             <h1>POKENALYSIS</h1>
