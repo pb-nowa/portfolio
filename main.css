@@ -173,6 +173,22 @@
     transform: none;
 }
 
+.pokenalysis-container {
+    border-radius: 10% 0% 0% 10% / 50% 0% 0% 50%; 
+}
+
+.alldays-img {
+    width: 100%;
+    height: auto;
+    transform: none;
+}
+
+.alldays-container {
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    /* border-radius: 0 0 0 0 / 0 0 0 0 ; */
+}
+
 .explore {
     text-decoration: none;
     color: white;

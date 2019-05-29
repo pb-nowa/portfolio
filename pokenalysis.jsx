@@ -21,8 +21,8 @@ class Pokenalysis extends React.Component {
                             <li>technology 3</li>
                         </ul>
                     </div>
-                    <div className="project-image-container">
-                        <img className="project-image pokenalysis-img" src="/images/pokenalysis_demo.gif" alt="project 1" />
+                    <div className="project-image-container pokenalysis-container">
+                        <img className="project-image pokenalysis-img" src="images/pokenalysis_demo.gif" alt="project 1" />
                     </div>
                 </div>
             </>

@@ -20,8 +20,8 @@ class Alldays extends React.Component {
                             <li>technology 3</li>
                         </ul>
                     </div>
-                    <div className="project-image-container">
-                        <img className="project-image" src="https://raw.githubusercontent.com/pb-nowa/Virtual-Synthesizer/master/assets/screenshots/granular-synth-destructure.gif" alt="project 1" />
+                    <div className="project-image-container alldays-container">
+                        <img className="project-image alldays-img" src="images/alldays_demo.gif" alt="project 1" />
                     </div>
                 </div>
             </>
