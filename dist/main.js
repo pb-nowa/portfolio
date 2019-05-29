@@ -90,10 +90,10 @@
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/*! no static exports found */
+/*! no exports provided */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (7:20)\\nYou may need an appropriate loader to handle this file type.\\n| document.addEventListener(\\\"DOMContentLoaded\\\", () => {\\n|     const root = document.getElementById(\\\"root\\\");\\n>     ReactDOM.render(<div>loaded</div>, root);\\n| });\");\n\n//# sourceURL=webpack:///./index.js?");
+eval("throw new Error(\"Module build failed: Error: ENOENT: no such file or directory, open '/Users/prestonnowakowski/portfolio/index.js'\");\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 
