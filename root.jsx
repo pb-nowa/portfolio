@@ -1,5 +1,7 @@
 import React from 'react';
-import Project from './projects';
+import Granular from './granular';
+import Pokenalysis from './pokenalysis';
+import Alldays from './alldays';
 import About from './about';
 import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 
@@ -33,9 +35,9 @@ class Root extends React.Component {
                     </ul>
                 </div>
                 <Switch>
-                    <Route exact path="/projects/granular-synth" component={Project}/>
-                    <Route exact path="/projects/pokenalysis" component={Project}/>
-                    <Route exact path="/projects/alldays" component={Project}/>
+                    <Route exact path="/projects/granular-synth" component={Granular}/>
+                    <Route exact path="/projects/pokenalysis" component={Pokenalysis}/>
+                    <Route exact path="/projects/alldays" component={Alldays}/>
                     <Route exact path="/about" component={About}/>
                 </Switch>
             </div>

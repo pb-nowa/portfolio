@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
     const project = () => {
         return(
             <>
             <ul className="tabs-container">
                 <li id="first" className="project-tab">
-                    <h2>Project1</h2>
+                    <Link to="/projects/pokenalysis"><h2>Pokenalysis</h2></Link>
                 </li>
                 <li id="second" className="project-tab">
-                    <h2>Project2</h2>
+                    <Link to="/projects/alldays"><h2>Alldays</h2></Link>
                 </li>
                 <li id="third" className="project-tab">
-                    <h2>Project3</h2>
+                    <Link to="/projects/granular-synth"><h2>Granular Synth</h2></Link>
                 </li>
             </ul>
             <div className="display-container">
