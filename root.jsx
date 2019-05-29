@@ -18,10 +18,12 @@ class Root extends React.Component {
                         <Link to="/projects/granular-synth">
                             <h2>PROJECTS</h2>
                         </Link>
-                            <a href="https://github.com/pb-nowa">
-                                <img src="https://github.com/feathericons/feather/blob/v2.2.0/icons/logos/github.svg" alt="github"/>
-                            </a>
-                            <a href="https://www.linkedin.com/in/preston-nowakowski/"><h2>LinkedIn</h2></a>
+                        <a className="fab fa-linkedin-in" href="https://github.com/pb-nowa">
+                            {/* <img className="icon" src="https://raw.githubusercontent.com/pb-nowa/portfolio/master/images/main.png" alt="github"/> */}
+                        </a>
+                        <a className="fab fa-github" href="https://www.linkedin.com/in/preston-nowakowski/">
+                            {/* <img className="icon" src="https://raw.githubusercontent.com/pb-nowa/portfolio/master/images/in.jpg" alt="linkedin"/> */}
+                        </a>
                     </ul>
                 </div>
                 <Switch>

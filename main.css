@@ -32,19 +32,28 @@
     display: flex;
     flex-direction: row;
     margin-right: 10px;
+    align-items: center;
+    justify-content: right;
 }
 
 .toolbar h2 {
     text-decoration: none;
     color: black;
-    padding: 10px; 
-    margin: 10px;
+    padding: 5px; 
+    margin-right: 14px;
     font-size: 18px;
 }
 
 .toolbar h2:hover {
     user-select: none;
     cursor: pointer;
+}
+
+.fab {
+    color: black;
+    font-size: 20px;
+    height: 20px;
+    width: 30px;
 }
 
 .project-tab {
@@ -148,6 +157,7 @@
 .explore:active {
     border: none;
 }
+
 .explore:hover {
     background-color: grey;
 }
