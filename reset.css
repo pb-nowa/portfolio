@@ -46,6 +46,18 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	user-select: none;
+}
+
+a:active {
+	border: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'PT Sans Narrow', sans-serif;
 }

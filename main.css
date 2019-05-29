@@ -1,30 +1,90 @@
 .tabs-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #dddddd;
 }
 
 .header {
     height: 80px;
-    background-color: grey;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.header h1 {
+    user-select: none;
+    cursor: pointer;
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.toolbar h2 {
+    text-decoration: none;
+    color: black;
+    padding: 10px; 
+    margin: 10px;
+    font-size: 18px;
+}
+
+.toolbar h2:hover {
+    user-select: none;
+    cursor: pointer;
 }
 
 .project-tab {
-    padding: 10px;
-    margin: 25px;
-    width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-tab:hover {
+    cursor: pointer;
+    user-select: none;
+}
+
+#first {
+    background-color: blue;
+    height: 100%;
+    width: 33%;
+    -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+}
+
+#second {
+    height: 100%;
+    width: 33%;
+}
+
+#third {
+    background-color: rgb(92, 92, 112);
+    height: 100%;
+    width: 33%;
+    -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
 }
 
 .display-container {
     width: 100%;
+    height: calc(100% - 120px);
     overflow: hidden;
-    background-color: #dddddd;
+    background-color: #c2cfe5;
     display: flex;
-}
-
-.project-about h1 {
-    margin: 10px;
-    padding:10px;
 }
 
 .project-about {
@@ -32,10 +92,23 @@
     width: 50%;
 }
 
+.project-about h1 {
+    margin: 10px;
+    padding:10px;
+    font-size: 30px;
+}
+
+.project-about p {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 10px;
+    margin: 10px;
+}
+
 .project-image-container {
     display: inline-block;
     width: 50%;
-    border-radius: 30% 0% 0% 30% / 50% 0% 0% 50%;
+    border-radius: 20% 0% 0% 20% / 50% 0% 0% 50%;
     overflow: hidden;
 }
 
@@ -43,3 +116,22 @@
     transform: translateX(-200px);
 }
 
+.explore {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 10px;
+    width: 40px;
+    font-family: 'PT Sans', sans-serif; 
+    padding: 10px;
+    margin: 10px;
+    transition: .3s;
+}
+
+.explore:active {
+    border: none;
+}
+.explore:hover {
+    background-color: blue;
+}
