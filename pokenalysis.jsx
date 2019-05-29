@@ -22,7 +22,7 @@ class Pokenalysis extends React.Component {
                         </ul>
                     </div>
                     <div className="project-image-container">
-                        <img className="project-image" src="https://raw.githubusercontent.com/pb-nowa/Virtual-Synthesizer/master/assets/screenshots/granular-synth-destructure.gif" alt="project 1" />
+                        <img className="project-image pokenalysis-img" src="/images/pokenalysis_demo.gif" alt="project 1" />
                     </div>
                 </div>
             </>

@@ -166,6 +166,13 @@
     transform: translateX(-200px);
 }
 
+.pokenalysis-img {
+    width: 100%;
+    height: auto;
+    /* transform: translateX(-130px); */
+    transform: none;
+}
+
 .explore {
     text-decoration: none;
     color: white;
