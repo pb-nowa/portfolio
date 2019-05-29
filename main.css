@@ -4,12 +4,12 @@
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    background-color: #dddddd;
+    background-color: #FBDA6C;
 }
 
 .header {
     height: 80px;
-    background-color: whitesmoke;
+    background-color: rgb(241, 240, 230);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,7 +59,7 @@
 }
 
 #first {
-    background-color: blue;
+    background-color: #EF7352;
     height: 100%;
     width: 33%;
     -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
@@ -72,7 +72,7 @@
 }
 
 #third {
-    background-color: rgb(92, 92, 112);
+    background-color:#6CC3C1;
     height: 100%;
     width: 33%;
     -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
@@ -83,13 +83,29 @@
     width: 100%;
     height: calc(100% - 120px);
     overflow: hidden;
-    background-color: #c2cfe5;
+    /* background-color: #c2cfe5; */
+    /* background-color:rgb(251, 239, 198); */
+    background-color:rgb(203, 230, 228);
+    /* background-color: rgb(241, 218, 212); */
     display: flex;
 }
 
 .project-about {
-    display: inline-block;
+    display: flex;
     width: 50%;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.about-top {
+    display: inline-block;
+    width: 100%;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
 }
 
 .project-about h1 {
@@ -133,5 +149,5 @@
     border: none;
 }
 .explore:hover {
-    background-color: blue;
+    background-color: grey;
 }
