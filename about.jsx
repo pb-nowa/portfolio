@@ -12,13 +12,14 @@ const about = () => {
                 </div>
                 <div className="body">
                     <img className="profile"src="https://media.licdn.com/dms/image/C5103AQGlAnULHP8wNg/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=_s9kbUl9VxFfr_ullYAXLXMvMLOizL0K0TEz0V18IIQ" alt="me"/>
+                    <p>Hi there! I'm Preston, a full-stack web developer based in the San Francisco Bay Area. My specialties include, Ruby on Rails, React and Redux. I see web development as a conversation with the user, with each line of code, a website can communicate and direct the conversation. I also write film and commercial music.</p>
                     <h2>TECHNOLOGIES</h2>
                     <h3>LANGUAGES</h3>
-                    <p>Ruby, JavaScript</p>
+                    <p>Ruby, JavaScript, SQL</p>
                     <h3>BACKEND</h3>
-                    <p>Ruby, Ruby on Rails, jQuery, AJAX, Express, SQL, MongoDB </p>
+                    <p>Ruby on Rails, Express, PostgreSQL, MongoDB, Node </p>
                     <h3>FRONTEND</h3>
-                    <p>JavaScript,  React,  Redux, HTML,  CSS,  SCSS, git</p>
+                    <p>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</p>
                 </div>
             </div>
             <div className="about-right">
