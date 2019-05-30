@@ -10,14 +10,20 @@ class Alldays extends React.Component {
                 <div className="display-container alldays">
                     <div className="project-about">
                         <div className="about-top">
-                            <h1>ALLDAYS</h1>
-                            <p>This is a paragraph that is describing my project and how awesome it is. It will be some length and have a few bullet points. Here are a few more words in order to fill up some of this space. I need more words to add to this paragraph. Wow. what a grat project !!!!!! :D</p>
-                            <a className="explore" href="">Explore</a>
+                            <div className="about-top-header">
+                                <h1>ALLDAYS</h1>
+                                <h2>-</h2>
+                                <a href="https://github.com/pb-nowa/All-Days"><h3>Github</h3></a>
+                                <a href="http://alldays.herokuapp.com/#/"><h3>Live</h3></a>
+                            </div>
+                            <p>Alldays is an online shoe store modelled after Allbirds.com. It is built on a Rails/PostgreSQL backend with a React/Redux frontend.</p>
+                            <a className="explore" href="http://alldays.herokuapp.com/#/">Explore</a>
                         </div>
                         <ul className="technologies">
-                            <li>technology 1</li>
-                            <li>technology 2</li>
-                            <li>technology 3</li>
+                            <img className="tech-icon" src="images/mongodb.png" alt="mongodb" />
+                            <img className="tech-icon react" src="images/react.png" alt="react" />
+                            <img className="tech-icon" src="images/redux.png" alt="redux" />
+                            <img className="tech-icon node" src="images/node.png" alt="nodejs" />
                         </ul>
                     </div>
                     <div className="project-image-container alldays-container">

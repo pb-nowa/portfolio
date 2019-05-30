@@ -136,6 +136,22 @@
     width: 100%;
 }
 
+.about-top-header {
+    display: flex;
+    align-items: center;
+}
+
+.about-top-header h3 {
+    padding: 10px 0 10px 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.about-top-header h3:hover {
+    cursor: pointer;
+    user-select: none;
+}
+
 .technologies {
     display: flex;
     flex-direction: row;
@@ -178,8 +194,8 @@
 }
 
 .alldays-img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: auto;
     transform: none;
 }
 
@@ -189,17 +205,17 @@
     /* border-radius: 0 0 0 0 / 0 0 0 0 ; */
 }
 
-.explore {
+a.explore {
     text-decoration: none;
     color: white;
     background-color: black;
     border-radius: 5px;
     height: 10px;
-    width: 40px;
     font-family: 'PT Sans', sans-serif; 
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
     transition: .3s;
+    border: 2px solid black;
 }
 
 .explore:active {
@@ -207,7 +223,9 @@
 }
 
 .explore:hover {
-    background-color: grey;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
 }
 
 .about-page-container {
@@ -246,6 +264,40 @@
     justify-content: flex-start;
     height: 60px;
     background-color: #FBDA6C;
+}
+
+.technologies {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-icon {
+    height: 120px;
+    width: 120px;;
+    object-fit: scale-down;
+    margin-right: 20px;
+}
+
+.react {
+    height: 50px;
+    width: 50px;
+}
+
+.node {
+    height: 80px;
+    width: 80px;
+}
+
+.javascript {
+    height: 60px;
+    width: 60px;
+}
+
+.html5 {
+    height: 80px;
+    width: 80px;
 }
 
 .footer {

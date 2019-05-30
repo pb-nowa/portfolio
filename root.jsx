@@ -17,7 +17,7 @@ class Root extends React.Component {
                         <div className="info">
                             <h3>(925)321-9577</h3>
                             <h3>|</h3>
-                            <h3>pb.nowa@gmail.com</h3>
+                            <a href="mailto:pb.nowa@gmail.com"><h3>pb.nowa@gmail.com</h3></a>
                         </div>
                     </div>
 
