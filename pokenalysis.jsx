@@ -7,7 +7,7 @@ class Pokenalysis extends React.Component {
         const { title } = this.props;
         return (
             <>
-                <Tabs />
+                <Tabs open="pokenalysis"/>
                 <div className="display-container pokenalysis">
                     <div className="project-about">
                         <div className="about-top">

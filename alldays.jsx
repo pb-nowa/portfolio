@@ -6,7 +6,7 @@ class Alldays extends React.Component {
         const { title } = this.props;
         return (
             <>
-                <Tabs />
+                <Tabs open="alldays"/>
                 <div className="display-container alldays">
                     <div className="project-about">
                         <div className="about-top">

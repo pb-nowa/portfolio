@@ -7,6 +7,15 @@
     background-color: #FBDA6C;
 }
 
+.project-tab a h2 {
+    font-size: 21px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.project-tab a h2.underline {
+    border-bottom: 2px solid black;
+}
+
 .header {
     height: 80px;
     background-color: rgb(241, 240, 230);
