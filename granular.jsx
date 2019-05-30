@@ -19,10 +19,17 @@ class Granular extends React.Component {
                             <p>Granular synthesis is the process of breaking up sound into individual audio samples, usually only a few miliseconds in length. The samples can then be reordered and played at any rate. This is the same process that is used for detuning, resampling, and time-control in audio. When mixed with other digital signal processors(DSP), the sounds can be transformed from chaotic noise into rich and texturally complex musical sounds.
 
 Granular synthesis can be commonly heard in modern film soundtracks and electronic music.</p>
+                            <h3 className="features-title">FEATURES</h3>
+                            <ul className="features-list">
+                                <li className="feature-item">feature</li>
+                                <li className="feature-item">feature</li>
+                                <li className="feature-item">feature</li>
+                            </ul>
                             <a className="explore" href="https://granular-synth.herokuapp.com/">Explore</a>
                         </div>
                         <ul className="technologies">
                             <img className="tech-icon javascript" src="images/javascript.png" alt="javascript" />
+                            <img className="tech-icon webpack" src="images/webpack.png" alt="webpack" />
                             <img className="tech-icon html5" src="images/html5.png" alt="html5" />
                         </ul>
                     </div>

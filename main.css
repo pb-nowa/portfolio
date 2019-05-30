@@ -205,15 +205,31 @@
     /* border-radius: 0 0 0 0 / 0 0 0 0 ; */
 }
 
+.features-title {
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.features-list {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.feature-item {
+    margin: 5px;
+    margin-left: none;
+}
+
 a.explore {
+    display: inline-block;
     text-decoration: none;
     color: white;
     background-color: black;
     border-radius: 5px;
-    height: 10px;
     font-family: 'PT Sans', sans-serif; 
     padding: 10px 20px 10px 20px;
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
     transition: .3s;
     border: 2px solid black;
 }
@@ -295,7 +311,8 @@ a.explore {
     height: 120px;
     width: 120px;;
     object-fit: scale-down;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .react {
@@ -316,6 +333,7 @@ a.explore {
 .html5 {
     height: 80px;
     width: 80px;
+    margin: none;
 }
 
 .rails {
@@ -326,6 +344,10 @@ a.explore {
 .postgres {
     height: 85px;
     width: 85px;
+}
+
+.teach-icon.webpack {
+    margin: none;
 }
 
 .body {
