@@ -256,6 +256,13 @@ a.explore {
 .about-header-left h1 {
     font-size: 24px;
     margin: 10px;
+    padding: 10px;
+}
+
+.about-header-left h3 {
+    padding: 10px 0 10px 10px;
+    margin: 10px;
+    font-size: 20px;
 }
 
 .about-header-right {
@@ -298,6 +305,22 @@ a.explore {
 .html5 {
     height: 80px;
     width: 80px;
+}
+
+.rails {
+    height: 65px;
+    width: 65px;
+}
+
+.postgres {
+    height: 85px;
+    width: 85px;
+}
+
+.profile {
+    border-radius: 100%;
+    height: 16vh;
+    margin: 10px;
 }
 
 .footer {

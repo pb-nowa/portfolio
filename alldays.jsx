@@ -20,10 +20,10 @@ class Alldays extends React.Component {
                             <a className="explore" href="http://alldays.herokuapp.com/#/">Explore</a>
                         </div>
                         <ul className="technologies">
-                            <img className="tech-icon" src="images/mongodb.png" alt="mongodb" />
+                            <img className="tech-icon rails" src="images/rails.png" alt="rails" />
+                            <img className="tech-icon postgres" src="images/postgres.png" alt="postgres" />
                             <img className="tech-icon react" src="images/react.png" alt="react" />
                             <img className="tech-icon" src="images/redux.png" alt="redux" />
-                            <img className="tech-icon node" src="images/node.png" alt="nodejs" />
                         </ul>
                     </div>
                     <div className="project-image-container alldays-container">
