@@ -13,13 +13,13 @@
   background-color: rgb(219, 192, 101);  
 }
 
-.project-tab a h2 {
+.project-tab h2 {
     font-size: 21px;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     padding-top: 2px;
 }
 
-.project-tab a h2.underline {
+.project-tab h2.underline {
     border-bottom: 2px solid black;
 }
 
@@ -157,6 +157,7 @@
     width: 50%;
     flex-direction: column;
     justify-content: space-between;    
+    flex-wrap: wrap;
 }
 
 .about-top {

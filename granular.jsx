@@ -3,7 +3,6 @@ import Tabs from './tabs_container';
 
 class Granular extends React.Component {
     render() {
-        const { title } = this.props;
         return (
             <>
                 <Tabs open="granular-synth"/>
@@ -21,9 +20,9 @@ class Granular extends React.Component {
 Granular synthesis can be commonly heard in modern film soundtracks and electronic music.</p>
                             <h3 className="features-title">FEATURES</h3>
                             <ul className="features-list">
-                                <li className="feature-item">feature</li>
-                                <li className="feature-item">feature</li>
-                                <li className="feature-item">feature</li>
+                                <li className="feature-item">The audio will granulate as you mouse-over the orb, this is matched by a visual displacing of the particles</li>
+                                <li className="feature-item">All of the particles are rendered on a 2 dimensional plane without the use of a 3D rendering engine</li>
+                                <li className="feature-item">The user can easily affect and edit the sound without any previous music or audio knowledge</li>
                             </ul>
                             <a className="explore" href="https://granular-synth.herokuapp.com/"><h2>Explore</h2></a>
                         </div>

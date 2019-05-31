@@ -4,7 +4,6 @@ import Tabs from './tabs_container';
 
 class Pokenalysis extends React.Component {
     render() {
-        const { title } = this.props;
         return (
             <>
                 <Tabs open="pokenalysis"/>
@@ -20,9 +19,9 @@ class Pokenalysis extends React.Component {
                             <p>Pokenalysis is a online team builder that leverages the PokéAPI and allows users to create, analyze, save, and share teams of Pokemon.</p>
                             <h3 className="features-title">FEATURES</h3>
                             <ul className="features-list">
-                                <li className="feature-item">feature</li>
-                                <li className="feature-item">feature</li>
-                                <li className="feature-item">feature</li>
+                                <li className="feature-item">Intuitive drag and drop features that allow for quickly building a team and comparing stats</li>
+                                <li className="feature-item">Quick filtering and search capabilities to help find the perfect addition to any team</li>
+                                <li className="feature-item">Share and like other teams to stay up to date with the current meta and top builds</li>
                             </ul>
                             <a className="explore" href="http://pokenalysis.herokuapp.com/#/"><h2>Explore</h2></a>
                         </div>
