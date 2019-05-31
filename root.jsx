@@ -25,7 +25,7 @@ class Root extends React.Component {
                         <Link to="/about">
                             <h2>ABOUT</h2>
                         </Link>
-                        <Link to="/projects/granular-synth">
+                        <Link to="/projects/pokenalysis">
                             <h2>PROJECTS</h2>
                         </Link>
                         <a className="fab fa-linkedin-in" href="https://github.com/pb-nowa">

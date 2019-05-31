@@ -17,7 +17,13 @@ class Alldays extends React.Component {
                                 <a href="http://alldays.herokuapp.com/#/"><h3>Live</h3></a>
                             </div>
                             <p>Alldays is an online shoe store modelled after Allbirds.com. It is built on a Rails/PostgreSQL backend with a React/Redux frontend.</p>
-                            <a className="explore" href="http://alldays.herokuapp.com/#/">Explore</a>
+                            <h3 className="features-title">FEATURES</h3>
+                            <ul className="features-list">
+                                <li className="feature-item">feature</li>
+                                <li className="feature-item">feature</li>
+                                <li className="feature-item">feature</li>
+                            </ul>
+                            <a className="explore" href="http://alldays.herokuapp.com/#/"><h2>Explore</h2></a>
                         </div>
                         <ul className="technologies">
                             <img className="tech-icon rails" src="images/rails.png" alt="rails" />

@@ -25,7 +25,7 @@ Granular synthesis can be commonly heard in modern film soundtracks and electron
                                 <li className="feature-item">feature</li>
                                 <li className="feature-item">feature</li>
                             </ul>
-                            <a className="explore" href="https://granular-synth.herokuapp.com/">Explore</a>
+                            <a className="explore" href="https://granular-synth.herokuapp.com/"><h2>Explore</h2></a>
                         </div>
                         <ul className="technologies">
                             <img className="tech-icon javascript" src="images/javascript.png" alt="javascript" />

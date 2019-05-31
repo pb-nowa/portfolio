@@ -5,6 +5,12 @@
     align-items: center;
     height: 40px;
     background-color: #FBDA6C;
+    transition: .2s;
+
+}
+
+.hovered-second {
+  background-color: rgb(219, 192, 101);  
 }
 
 .project-tab a h2 {
@@ -83,9 +89,10 @@
 }
 
 .project-tab {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
 }
 
 .project-tab:hover {
@@ -101,17 +108,25 @@
     clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
 }
 
+#first:hover {
+    background-color: rgb(218, 108, 74);
+}
+
 #second {
     height: 100%;
     width: 33%;
 }
 
 #third {
-    background-color:#6CC3C1;
+    background-color:rgb(110, 202, 201);
     height: 100%;
     width: 33%;
     -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
+
+#third:hover {
+    background-color: rgb(94, 167, 165);
 }
 
 .display-container {
@@ -151,14 +166,18 @@
 }
 
 .about-top-header h3 {
-    padding: 10px 0 10px 10px;
-    margin: 10px;
+    padding: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    margin: 10px 0 10px 20px;
     font-size: 20px;
+    transition: .2s;
 }
 
 .about-top-header h3:hover {
     cursor: pointer;
     user-select: none;
+    border-bottom: 2px solid black;
+
 }
 
 .technologies {
@@ -226,12 +245,15 @@
 }
 
 .feature-item {
-    margin: 5px;
-    margin-left: none;
+    margin: 5px 0 5px 0;
+    font-family: 'PT Sans', sans-serif;
+
 }
 
 a.explore {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
     background-color: black;
@@ -241,6 +263,8 @@ a.explore {
     margin: 10px 20px 10px 20px;
     transition: .3s;
     border: 2px solid black;
+    width: 40px;
+    text-align: center;
 }
 
 .explore:active {
@@ -251,6 +275,10 @@ a.explore {
     background-color: transparent;
     border: 2px solid black;
     color: black;
+}
+
+.explore h2 {
+    font-size: 17px;
 }
 
 .about-page-container {
@@ -296,9 +324,15 @@ a.explore {
 }
 
 .about-header-left h3 {
-    padding: 10px 0 10px 10px;
-    margin: 10px;
+    /* padding: 10px 0 10px 10px; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    margin: 20px 0 20px 10px;;
     font-size: 20px;
+    transition: .2s;
+}
+
+.about-header-left h3:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .about-header-right {

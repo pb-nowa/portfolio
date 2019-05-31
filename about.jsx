@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const about = () => {
     return(
@@ -20,6 +21,8 @@ const about = () => {
                     <p>Ruby on Rails, Express, PostgreSQL, MongoDB, Node </p>
                     <h3>FRONTEND</h3>
                     <p>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</p>
+                    <Link className="explore" to="/projects/pokenalysis"><h2>Projects</h2></Link>
+                    
                 </div>
             </div>
             <div className="about-right">
