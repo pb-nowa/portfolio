@@ -285,6 +285,10 @@ a.explore {
     font-size: 17px;
 }
 
+.explore h4 {
+    font-size: 17px;
+}
+
 .about-page-container {
     display: flex;
     height: calc(100% - 140px);

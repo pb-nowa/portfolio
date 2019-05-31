@@ -8,8 +8,8 @@ const about = () => {
             <div className="about-left">
                 <div className="about-header-left">
                     <h1>ABOUT ME</h1>
-                        <a href="https://github.com/pb-nowa"><h3>Github</h3></a>
                         <a href="https://www.linkedin.com/in/preston-nowakowski/"><h3>LinkedIn</h3></a>
+                        <a href="https://github.com/pb-nowa"><h3>Github</h3></a>
                 </div>
                 <div className="body">
                     <img className="profile"src="https://media.licdn.com/dms/image/C5103AQGlAnULHP8wNg/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=_s9kbUl9VxFfr_ullYAXLXMvMLOizL0K0TEz0V18IIQ" alt="me"/>
@@ -21,7 +21,7 @@ const about = () => {
                     <p>Ruby on Rails, Express, PostgreSQL, MongoDB, Node </p>
                     <h3>FRONTEND</h3>
                     <p>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</p>
-                    <Link className="explore" to="/projects/pokenalysis"><h2>Projects</h2></Link>
+                    <Link className="explore" to="/projects/pokenalysis"><h4>Projects</h4></Link>
                     
                 </div>
             </div>
