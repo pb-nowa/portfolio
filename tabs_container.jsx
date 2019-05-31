@@ -24,15 +24,15 @@ class Tabs extends React.Component {
         const { hovered } = this.state;
         return(
             <ul className={hovered ? "tabs-container hovered-second" : "tabs-container"}>
-                <li id="first" className="project-tab">
-                    <Link to="/projects/pokenalysis"><h2 className={open === "pokenalysis" ? "underline" : ""}>Pokenalysis</h2></Link>
-                </li>
-                <li id="second" className="project-tab" onMouseEnter={this.handleHover} onMouseLeave={this.handleLeave} >
-                    <Link to="/projects/alldays"><h2 className={open === "alldays" ? "underline" : ""}>Alldays</h2></Link>
-                </li>
-                <li id="third" className="project-tab">
-                    <Link to="/projects/granular-synth"><h2 className={open === "granular-synth" ? "underline" : ""}>Granular Synth</h2></Link>
-                </li>
+                <Link to="/projects/pokenalysis" id="first" className="project-tab">
+                    <h2 className={open === "pokenalysis" ? "underline" : ""}>Pokenalysis</h2>
+                </Link>
+                <Link to="/projects/alldays" id="second" className="project-tab" onMouseEnter={this.handleHover} onMouseLeave={this.handleLeave} >
+                    <h2 className={open === "alldays" ? "underline" : ""}>Alldays</h2>
+                </Link>
+                <Link to="/projects/granular-synth" id="third" className="project-tab">
+                    <h2 className={open === "granular-synth" ? "underline" : ""}>Granular Synth</h2>
+                </Link>
             </ul>
         )
     }
