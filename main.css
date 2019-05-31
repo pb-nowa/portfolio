@@ -16,6 +16,7 @@
 .project-tab a h2 {
     font-size: 21px;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
+    padding-top: 2px;
 }
 
 .project-tab a h2.underline {
@@ -70,15 +71,18 @@
 
 .toolbar h2 {
     text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
     color: black;
-    padding: 5px; 
+    padding-top: 2px;
     margin-right: 14px;
     font-size: 18px;
+    transition: .2s;
 }
 
 .toolbar h2:hover {
     user-select: none;
     cursor: pointer;
+    border-bottom: 2px solid black;
 }
 
 .fab {
@@ -324,7 +328,7 @@ a.explore {
 }
 
 .about-header-left h3 {
-    /* padding: 10px 0 10px 10px; */
+    padding-top: 2px;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     margin: 20px 0 20px 10px;;
     font-size: 20px;
