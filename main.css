@@ -289,6 +289,10 @@ a.explore {
     font-size: 17px;
 }
 
+.buttons {
+    display: flex;
+}
+
 .about-page-container {
     display: flex;
     height: calc(100% - 140px);

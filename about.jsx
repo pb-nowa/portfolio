@@ -21,7 +21,11 @@ const about = () => {
                     <p>Ruby on Rails, Express, PostgreSQL, MongoDB, Node </p>
                     <h3>FRONTEND</h3>
                     <p>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</p>
-                    <Link className="explore" to="/projects/pokenalysis"><h4>Projects</h4></Link>
+                    
+                    <div className="buttons">
+                        <Link className="explore" to="/projects/pokenalysis"><h4>Projects</h4></Link>
+                        <a className="explore" href="">Resume</a>
+                    </div>
                     
                 </div>
             </div>
