@@ -112,7 +112,7 @@
     clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
 }
 
-#first:hover {
+#first.hovered {
     background-color: rgb(218, 108, 74);
 }
 
@@ -129,7 +129,7 @@
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
 }
 
-#third:hover {
+#third.hovered {
     background-color: rgb(94, 167, 165);
 }
 
