@@ -2,12 +2,45 @@ import React from 'react';
 import Tabs from './tabs_container';
 
 class Granular extends React.Component {
-    constructor(props){
+
+    constructor(props) {
         super(props);
+        this.state = {
+            loaded: false,
+        };
+        this.setLoadState = this.setLoadState.bind(this);
+    }
+
+    componentDidMount() {
+        const lazyLoad = target => {
+            const io = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        const src = img.getAttribute('data-lazy');
+
+                        img.setAttribute('src', src);
+
+                        observer.disconnect();
+
+                    }
+                });
+            });
+            io.observe(target);
+
+        };
+        lazyLoad(this.imageRef);
+    }
+
+    setLoadState() {
+        this.setState({
+            loaded: true,
+        });
 
     }
 
     render() {
+        const { setLoadState } = this.state;
         return (
             <>
                 <Tabs open="granular-synth"/>
@@ -38,7 +71,13 @@ Granular synthesis can be commonly heard in modern film soundtracks and electron
                         </ul>
                     </div>
                     <div className="project-image-container">
-                        <img className="project-image" src="https://raw.githubusercontent.com/pb-nowa/Virtual-Synthesizer/master/assets/screenshots/granular-synth-destructure.gif" alt="project 1" />
+                        <img ref={ref => this.imageRef = ref}
+                            onLoad={setLoadState}
+                            className="project-image" 
+                            src="images/react.png"
+                            data-lazy="https://raw.githubusercontent.com/pb-nowa/Virtual-Synthesizer/master/assets/screenshots/granular-synth-destructure.gif"
+                            alt="granular site" 
+                            />
                     </div>
                 </div>
             </>

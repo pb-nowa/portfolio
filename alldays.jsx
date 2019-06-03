@@ -76,7 +76,7 @@ class Alldays extends React.Component {
                             className="project-image alldays-img" 
                             src="images/react.png" 
                             data-lazy="images/alldays_demo.gif" 
-                            alt="project 1" 
+                            alt="alldays" 
                             />
                     </div>
                 </div>
