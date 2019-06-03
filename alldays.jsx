@@ -2,7 +2,45 @@ import React from 'react';
 import Tabs from './tabs_container';
 
 class Alldays extends React.Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+            loaded: false,
+        };
+        this.setLoadState = this.setLoadState.bind(this);
+    }
+
+    componentDidMount() {
+        const lazyLoad = target => {
+            const io = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        const src = img.getAttribute('data-lazy');
+
+                        img.setAttribute('src', src);
+
+                        observer.disconnect();
+
+                    }
+                });
+            });
+            io.observe(target);
+
+        };
+        lazyLoad(this.imageRef);
+    }
+
+    setLoadState(){
+        this.setState({
+            loaded: true,
+        });
+
+    }
+
     render() {
+        const { setLoadState } = this.state;
         return (
             <>
                 <Tabs open="alldays"/>
@@ -33,7 +71,13 @@ class Alldays extends React.Component {
                         </ul>
                     </div>
                     <div className="project-image-container alldays-container">
-                        <img className="project-image alldays-img" src="images/alldays_demo.gif" alt="project 1" />
+                        <img ref={ref => this.imageRef = ref}
+                            onLoad={setLoadState}
+                            className="project-image alldays-img" 
+                            src="images/react.png" 
+                            data-lazy="images/alldays_demo.gif" 
+                            alt="project 1" 
+                            />
                     </div>
                 </div>
             </>

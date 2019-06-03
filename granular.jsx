@@ -2,6 +2,11 @@ import React from 'react';
 import Tabs from './tabs_container';
 
 class Granular extends React.Component {
+    constructor(props){
+        super(props);
+
+    }
+
     render() {
         return (
             <>
