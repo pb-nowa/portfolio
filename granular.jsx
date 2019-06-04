@@ -1,6 +1,6 @@
 import React from 'react';
 import Tabs from './tabs_container';
-
+import FeatureImg from './feature_image';
 class Granular extends React.Component {
 
     constructor(props) {
@@ -11,26 +11,26 @@ class Granular extends React.Component {
         this.setLoadState = this.setLoadState.bind(this);
     }
 
-    componentDidMount() {
-        const lazyLoad = target => {
-            const io = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        const src = img.getAttribute('data-lazy');
+    // componentDidMount() {
+    //     const lazyLoad = target => {
+    //         const io = new IntersectionObserver((entries, observer) => {
+    //             entries.forEach(entry => {
+    //                 if (entry.isIntersecting) {
+    //                     const img = entry.target;
+    //                     const src = img.getAttribute('data-lazy');
 
-                        img.setAttribute('src', src);
+    //                     img.setAttribute('src', src);
 
-                        observer.disconnect();
+    //                     observer.disconnect();
 
-                    }
-                });
-            });
-            io.observe(target);
+    //                 }
+    //             });
+    //         });
+    //         io.observe(target);
 
-        };
-        lazyLoad(this.imageRef);
-    }
+    //     };
+    //     lazyLoad(this.imageRef);
+    // }
 
     setLoadState() {
         this.setState({
@@ -40,7 +40,8 @@ class Granular extends React.Component {
     }
 
     render() {
-        const { setLoadState } = this.state;
+        const { loaded } = this.state;
+        console.log(loaded);
         return (
             <>
                 <Tabs open="granular-synth"/>
@@ -71,15 +72,16 @@ Granular synthesis can be commonly heard in modern film soundtracks and electron
                         </ul>
                     </div>
                     <div className="project-image-container">
-                        <img ref={ref => this.imageRef = ref}
-                            onLoad={setLoadState}
-                            className="project-image" 
-                            src="images/react.png"
-                            data-lazy="https://raw.githubusercontent.com/pb-nowa/Virtual-Synthesizer/master/assets/screenshots/granular-synth-destructure.gif"
-                            alt="granular site" 
-                            />
-                    </div>
+                        <img
+                            ref={ref => this.imageRef = ref}
+                            onLoad={this.setLoadState}
+                            className="project-image"
+                            src="https://raw.githubusercontent.com/pb-nowa/Virtual-Synthesizer/master/assets/screenshots/granular-synth-destructure.gif"
+                            alt="granular site"
+                        />
+                    </div> 
                 </div>
+                {/* <FeatureImg setLoadState={this.setLoadState} loaded={loaded}/> */}
             </>
         );
     }
