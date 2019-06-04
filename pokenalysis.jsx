@@ -54,13 +54,23 @@ class Pokenalysis extends React.Component {
                                 <a href="https://github.com/bmzhu2/Pokenalysis"><h3>Github</h3></a>
                                 <a href="http://pokenalysis.herokuapp.com/#/"><h3>Live</h3></a>
                             </div>
-                            <p>Pokenalysis is a online team builder that leverages the PokéAPI and allows users to create, analyze, save, and share teams of Pokemon.</p>
+                            <p>Pokenalysis is a online tool for all players of the Pokemon videogames. Optimize your team by crafting, analyzing, and sharing with a whole world of other Pokemon enthusists.
+                            </p>
                             <h3 className="features-title">FEATURES</h3>
                             <ul className="features-list">
-                                <li className="feature-item">Intuitive drag and drop features that allow for quickly building a team and comparing stats</li>
-                                <li className="feature-item">Quick filtering and search capabilities to help find the perfect addition to any team</li>
-                                <li className="feature-item">Share and like other teams to stay up to date with the current meta and top builds</li>
+                                <li className="feature-item">&#8226; Intuitively drag and drop a Pokemon into your team for detailed statistics on its strengths and weaknesses.</li>
+                                <li className="feature-item">&#8226; Quickly search by name or filter by type. </li>
+                                <li className="feature-item">&#8226; Share and like other teams to stay up to date with the current meta and top builds.</li>
                             </ul>
+                            <h3 className="features-title">DETAILS</h3>
+                            <p>Pokenalysis is a very data driven app. Although there are other apps that accomplish similar goals, Pokenalysis
+                                improves the team building experience. Drag-and-drop capabilities along with a simple delete button make it faster to build a team. 
+                                Images and stats are lazy loaded, so that the filter and search functionality work faster than ever. (Also reducing API calls for a smoother experience)
+                                The ability to like and share teams provides additional feedback in addition to the provided statistics. 
+                                Statistics are calculated on the front-end to provide immediate results when new members are added. 
+                                Be sure to checkout the <a className="hyperlink" href="http://pokenalysis.herokuapp.com/#/">website</a> or 
+                                visit the <a className="hyperlink" href="https://github.com/bmzhu2/Pokenalysis">Github</a> for a more detailed look at Pokenalysis. 
+                            </p>
                             <a className="explore" href="http://pokenalysis.herokuapp.com/#/"><h2>Explore</h2></a>
                         </div>
                         <ul className="technologies">

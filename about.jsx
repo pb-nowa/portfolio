@@ -14,20 +14,23 @@ const about = () => {
                 <div className="body">
                     <img className="profile"src="https://media.licdn.com/dms/image/C5103AQGlAnULHP8wNg/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=_s9kbUl9VxFfr_ullYAXLXMvMLOizL0K0TEz0V18IIQ" alt="me"/>
                     <h2>BACKGROUND</h2>
-                    <p>Hi there! I'm Preston, a full-stack web developer based in the San Francisco Bay Area. Programming has always been a passion of mine. Having grown-up in the San Francisco Bay Area, it has been hard to avoid the tech world. 
+                    <p>Hi there! I'm Preston, a full-stack web developer. Programming has always been a passion of mine. Having grown-up in the San Francisco Bay Area, it has been hard to avoid the tech world. 
                         But instead of going into programming immediately, I spent some time working in the music and entertainment business.
                         In my previous career, I held a variety of jobs ranging from music tech for recording and studio sessions, to sheet music praparation and even professional whistling. 
                         You can checkout some of my music&nbsp;
                         <a className="hyperlink" href="https://soundcloud.com/pnowakowskimusic">here</a>.
                     </p>
-                    <h2>Why Web Developement?</h2>
-                    <p>In web development, every line of code is part of a conversation with the user. 
-                        I strive to only make websites that incorporate intuitive interfaces with a clean and focused look.
+                    <h2>My developer commandments</h2>
+                    <ul className="list">
+                        <li>1. There's no such thing as too much detail</li>
+                        <li>2. Functionality is only as good as an app's usability</li>
+                        <li>3. Eliminate distractions and repeat important information</li>
+                        <li>4. Be creative within the limits of your audience</li>
+                    </ul>
+                    <br/>
+                    <p>Feel free to take a look at some of my&nbsp;
+                        <Link className="hyperlink" to="/projects/pokenalysis">projects</Link>.
                     </p>
-                    
-                    <div className="buttons">
-                        <Link className="explore" to="/projects/pokenalysis"><h4>Projects</h4></Link>
-                    </div>
                     
                 </div>
             </div>
@@ -43,7 +46,7 @@ const about = () => {
                         <p>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</p>
                     </div>
                 <h2>Education</h2>
-                <ul className="education">
+                <ul className="list">
                     <li>App Academy | Web Development Intensive</li>
                     <li>University of Southern California | M.M. Screen Scoring (Music Composition and Audio Technologies)</li>
                     <li>California State University, Northrdige | B.M. Media and Commercial Composition</li>
@@ -56,7 +59,7 @@ const about = () => {
             <div className="info">
                 <h3>(925)321-9577</h3>
                 <h3>|</h3>
-                <h3>pb.nowa@gmail.com</h3>
+                    <a className="mail-hyperlink" href="mailto:pb.nowa@gmail.com"><h3>pb.nowa@gmail.com</h3></a>
             </div>
         </div>
         </>

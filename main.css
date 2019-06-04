@@ -252,6 +252,7 @@
 .feature-item {
     margin: 5px 0 5px 0;
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.25;
 
 }
 
@@ -428,11 +429,11 @@ a.explore {
 }
 
 .body p {
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
 .profile {
-    border-radius: 100%;
+    /* border-radius: 100%; */
     height: 16vh;
     width: 16vh;
     float: left;
@@ -465,9 +466,16 @@ a.hyperlink:hover {
     font-family: 'PT Sans', sans-serif;
 }
 
-.education {
+ul.list {
     margin-left: 20px;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.25;
 }
 
+.mail-hyperlink {
+    transition: .2s;
+}
+
+.mail-hyperlink:hover {
+    color: rgb(124, 44, 44);
+}
