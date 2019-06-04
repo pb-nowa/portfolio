@@ -18,7 +18,9 @@ const about = () => {
                         But instead of going into programming immediately, I spent some time working in the music and entertainment business.
                         In my previous career, I held a variety of jobs ranging from music tech for recording and studio sessions, to sheet music praparation and even professional whistling. 
                         You can checkout some of my music&nbsp;
-                        <a className="hyperlink" href="https://soundcloud.com/pnowakowskimusic">here</a>.
+                        <a className="hyperlink" href="https://soundcloud.com/pnowakowskimusic">here</a>. I've brought with me the same kind
+                        of creativity and passion from music into my life as a programmer. Algorithms and frameworks can be taught and learned, but overcoming complex problems requires creativity. Some 
+                        of my specialties include, React, Redux, Ruby on Rails, and creative-problem-solving.
                     </p>
                     <h2>My developer commandments</h2>
                     <ul className="list">
