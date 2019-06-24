@@ -433,7 +433,8 @@ a.explore {
 }
 
 .body .space-above {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .body p {
