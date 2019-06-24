@@ -63,7 +63,7 @@ class Pokenalysis extends React.Component {
                                 <li className="feature-item">&#8226; Share and like other teams to stay up to date with the current meta and top builds.</li>
                             </ul>
                             <h3 className="features-title">DETAILS</h3>
-                            <p>Pokenalysis is a very data driven app. Although there are other apps that accomplish similar goals, Pokenalysis
+                            <p>Pokenalysis is a data driven app. Although there are other apps that accomplish similar goals, Pokenalysis
                                 improves the team building experience. Drag-and-drop capabilities along with a simple delete button make it faster to build a team. 
                                 Images and stats are lazy loaded, so that the filter and search functionality work faster than ever. (Also reducing API calls for a smoother experience)
                                 The ability to like and share teams provides additional feedback in addition to the provided statistics. 

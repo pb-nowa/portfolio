@@ -1,3 +1,8 @@
+.main {
+    min-width: 973;
+    overflow: auto;
+}
+
 .tabs-container {
     display: flex;
     flex-direction: row;
@@ -310,16 +315,17 @@ a.explore {
     width: 50%;
     height: 100%;
     background-color:rgb(251, 239, 198);
+    overflow: auto;
 }
 
 .about-right h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    margin: 20px 10px 10px 20px;
+    margin: 0px 10px 10px 0px;
 }
 
 .about-right p {
-    margin: 10px 10px 10px 20px;
+    margin: 10px 10px 10px 0px;
     line-height: 1.25;
 }
 
@@ -413,13 +419,12 @@ a.explore {
     margin: 10px;
     padding: 10px;
     max-height: calc(100% - 100px);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .body h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 .body h3 {
@@ -428,15 +433,27 @@ a.explore {
     margin-top: 10px;
 }
 
+.body .spsace-above {
+    margin-top: 10px;
+}
+
 .body p {
     line-height: 1.25;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .profile {
     /* border-radius: 100%; */
     height: 16vh;
     width: 16vh;
-    float: left;
+}
+
+.profile-summary {
+    margin: 0 20px 10px 20px;
 }
 
 .footer {
@@ -462,12 +479,34 @@ a.hyperlink:hover {
 }
 
 .technologies-about {
-    margin-left: 20px;
+    display: flex;
     font-family: 'PT Sans', sans-serif;
 }
 
+.technology-titles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.technology-titles-container h3 {
+    margin: 5px 10px 5px 0;
+}
+
+.technologies-about-tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.technologies-about-tech li {
+    list-style-type: none; 
+    margin: 5px 10px 5px 10px;
+}
+
 ul.list {
-    margin-left: 20px;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.25;
 }

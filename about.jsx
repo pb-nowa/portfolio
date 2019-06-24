@@ -10,51 +10,59 @@ const about = () => {
                     <h1>ABOUT ME</h1>
                         <a href="https://www.linkedin.com/in/preston-nowakowski/"><h3>LinkedIn</h3></a>
                         <a href="https://github.com/pb-nowa"><h3>Github</h3></a>
+                        <a href="/assets/RESUME - Preston Nowakowski.pdf"><h3>Resume</h3></a>
                 </div>
                 <div className="body">
-                    <img className="profile"src="https://media.licdn.com/dms/image/C5103AQGlAnULHP8wNg/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=_s9kbUl9VxFfr_ullYAXLXMvMLOizL0K0TEz0V18IIQ" alt="me"/>
-                    <h2>BACKGROUND</h2>
-                    <p>Hi there! I'm Preston, a full-stack web developer. Programming has always been a passion of mine. Having grown-up in the San Francisco Bay Area, it has been hard to avoid the tech world. 
-                        But instead of going into programming immediately, I spent some time working in the music and entertainment business.
-                        In my previous career, I held a variety of jobs ranging from music tech for recording and studio sessions, to sheet music praparation and even professional whistling. 
-                        You can checkout some of my music&nbsp;
-                        <a className="hyperlink" href="https://soundcloud.com/pnowakowskimusic">here</a>. I've brought with me the same kind
-                        of creativity and passion from music into my life as a programmer. Algorithms and frameworks can be taught and learned, but overcoming complex problems requires creativity. Some 
-                        of my specialties include, React, Redux, Ruby on Rails, and creative-problem-solving.
-                    </p>
-                    <h2>My developer commandments</h2>
+                    <div className="profile-container">
+                        <img className="profile"src="https://media.licdn.com/dms/image/C5103AQGlAnULHP8wNg/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=_s9kbUl9VxFfr_ullYAXLXMvMLOizL0K0TEz0V18IIQ" alt="me"/>
+                        <p className="profile-summary">Hi there! I'm Preston, a full-stack web developer. Some of my specialties include, React, Redux, Ruby on Rails, and creative-problem-solving. I enjoy building unique visually-pleasing web apps that are enjoyable and simple to use. 
+                            <br/>
+                            <br/>
+                            Checkout some of my&nbsp;
+                            <Link className="hyperlink" to="/projects/pokenalysis">projects</Link>.
+                        </p>
+                        
+                    </div>
+                    <h2>WHAT I'M LOOKING FOR</h2>
+                    <p>As a former employee of the entertainment industry, I have really enjoyed working in fast-paced collaborative environments. I hope to work somewhere where creativity is expected and communication is king. 
+                    I am a lifelong learner and always looking to pick up new skills.</p>
+                    <h2>ACHIEVEMENTS</h2>
+                    <p>I am a graduate of App Academy, a top tier full-stack software development intensive, based in the heart of San Francisco. I am a fast learner, completing my undergraduate degree at California State University, Northridge in 3 years, and earning the Dean's Award for the College of Media, Arts, and Communications. I then received my Master's from the University of Southern California in its accelerated 1-year Screen Scoring (music technology and film) program, which is recognized as #1 in the world as part of the Thornton Conservatory and the School of Cinematic Arts.</p>
+                    <br/>
+
+                </div>
+            </div>
+            <div className="about-right">
+                <div className="about-header-right"></div>
+                <div className="body">
+                    <h2>MY DEVELOPER COMMANDMENTS</h2>
                     <ul className="list">
                         <li>1. There's no such thing as too much detail</li>
                         <li>2. Functionality is only as good as an app's usability</li>
                         <li>3. Eliminate distractions and repeat important information</li>
                         <li>4. Be creative within the limits of your audience</li>
                     </ul>
-                    <br/>
-                    <p>Feel free to take a look at some of my&nbsp;
-                        <Link className="hyperlink" to="/projects/pokenalysis">projects</Link>.
-                    </p>
-                    
-                </div>
-            </div>
-            <div className="about-right">
-                <div className="about-header-right"></div>
-                    <h2>TECHNOLOGIES</h2>
+                    <h2 className="space-above" >TECHNOLOGIES</h2>
                     <div className="technologies-about">
-                        <h3>LANGUAGES</h3>
-                        <p>Ruby, JavaScript, SQL</p>
-                        <h3>BACKEND</h3>
-                        <p>Ruby on Rails, Express, PostgreSQL, MongoDB, Node </p>
-                        <h3>FRONTEND</h3>
-                        <p>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</p>
+                        <div className="technology-titles-container">
+                            <h3>LANGUAGES:</h3>
+                            <h3>BACKEND:</h3>
+                            <h3>FRONTEND:</h3>
+                        </div>
+                        <div className="technologies-about-tech">
+                            <li>Ruby, JavaScript, SQL</li>
+                            <li>Ruby on Rails, Express, PostgreSQL, MongoDB, Node </li>
+                            <li>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</li>
+                        </div>
                     </div>
-                <h2>Education</h2>
+                <h2>EDUCATION</h2>
                 <ul className="list">
-                    <li>App Academy | Web Development Intensive</li>
+                    <li>App Academy | Full Stack Web Development Intensive</li>
                     <li>University of Southern California | M.M. Screen Scoring (Music Composition and Audio Technologies)</li>
                     <li>California State University, Northrdige | B.M. Media and Commercial Composition</li>
                 </ul>
-                    <p>Checkout my full <a className="hyperlink" href="/assets/RESUME - Preston Nowakowski.pdf">resume</a></p>
-
+                <p>Checkout my full <a className="hyperlink" href="/assets/RESUME - Preston Nowakowski.pdf">resume</a></p>
+                </div>
             </div>
         </div>
         <div className="footer">
