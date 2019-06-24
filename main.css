@@ -453,6 +453,7 @@ a.explore {
     display: block;
     height: 16vh;
     width: 16vh;
+    object-fit: contain;
 }
 
 .profile-summary {
