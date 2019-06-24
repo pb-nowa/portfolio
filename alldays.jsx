@@ -48,7 +48,7 @@ class Alldays extends React.Component {
                     <div className="project-about">
                         <div className="about-top">
                             <div className="about-top-header">
-                                <h1>ALLDAYS</h1>
+                                <h1>ALLDAYS</h1>x
                                 <h2>-</h2>
                                 <a href="https://github.com/pb-nowa/All-Days"><h3>Github</h3></a>
                                 <a href="http://alldays.herokuapp.com/#/"><h3>Live</h3></a>
