@@ -12,27 +12,6 @@ class Pokenalysis extends React.Component {
         this.setLoadState = this.setLoadState.bind(this);
     }
 
-    componentDidMount() {
-        const lazyLoad = target => {
-            const io = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        const src = img.getAttribute('data-lazy');
-
-                        img.setAttribute('src', src);
-
-                        observer.disconnect();
-
-                    }
-                });
-            });
-            io.observe(target);
-
-        };
-        lazyLoad(this.imageRef);
-    }
-
     setLoadState() {
         this.setState({
             loaded: true,
@@ -84,8 +63,7 @@ class Pokenalysis extends React.Component {
                         <img ref={ref => this.imageRef = ref}
                             onLoad={setLoadState}
                             className="project-image pokenalysis-img" 
-                            src="images/react.png"
-                            data-lazy="images/pokenalysis_demo2.gif" 
+                            src="images/pokenalysis_demo2.gif"
                             alt="pokenalysis site" 
                             />
                     </div>

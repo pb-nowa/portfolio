@@ -11,27 +11,6 @@ class Alldays extends React.Component {
         this.setLoadState = this.setLoadState.bind(this);
     }
 
-    componentDidMount() {
-        const lazyLoad = target => {
-            const io = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        const src = img.getAttribute('data-lazy');
-
-                        img.setAttribute('src', src);
-
-                        observer.disconnect();
-
-                    }
-                });
-            });
-            io.observe(target);
-
-        };
-        lazyLoad(this.imageRef);
-    }
-
     setLoadState(){
         this.setState({
             loaded: true,
@@ -78,8 +57,7 @@ class Alldays extends React.Component {
                         <img ref={ref => this.imageRef = ref}
                             onLoad={setLoadState}
                             className="project-image alldays-img" 
-                            src="images/react.png" 
-                            data-lazy="images/alldays_demo.gif" 
+                            src="images/alldays_demo.gif" 
                             alt="alldays" 
                             />
                     </div>
