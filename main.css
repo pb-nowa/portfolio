@@ -211,13 +211,16 @@
 
 .project-image-container {
     display: inline-block;
-    width: 50%;
+    height: 100%;
+    width: auto;
+    max-width: 50%;
     border-radius: 20% 0% 0% 20% / 50% 0% 0% 50%;
     overflow: hidden;
 }
 
 .project-image {
-    transform: translateX(-200px);
+    transform: translateX(-10vh);
+    height: 100%;
 }
 
 .pokenalysis-img {
