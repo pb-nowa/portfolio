@@ -450,7 +450,7 @@ a.explore {
 }
 
 .profile {
-    /* border-radius: 100%; */
+    display: block;
     height: 16vh;
     width: 16vh;
 }
