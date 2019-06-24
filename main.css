@@ -163,6 +163,7 @@
     flex-direction: column;
     justify-content: space-between;    
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 .about-top {
@@ -205,8 +206,7 @@
 .project-about p {
     font-size: 16px;
     line-height: 1.25;
-    padding: 10px;
-    margin: 10px;
+    margin: 0 20px 0 20px;
 }
 
 .project-image-container {
@@ -245,8 +245,7 @@
 
 .features-title {
     font-size: 20px;
-    margin: 10px;
-    margin-left: 20px;
+    margin: 15px 0 5px 20px;
 }
 
 .features-list {
@@ -255,10 +254,10 @@
 }
 
 .feature-item {
-    margin: 5px 0 5px 0;
+    margin: 5px 0 5px 15px;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.25;
-
+    list-style: disc;
 }
 
 a.explore {
@@ -271,7 +270,7 @@ a.explore {
     border-radius: 5px;
     font-family: 'PT Sans', sans-serif; 
     padding: 10px 20px 10px 20px;
-    margin: 10px 20px 10px 20px;
+    margin: 15px 20px 15px 20px;
     transition: .3s;
     border: 2px solid black;
     width: 40px;
@@ -365,7 +364,7 @@ a.explore {
 
 .technologies {
     display: flex;
-    margin: 20px;
+    margin: 0 10px 0 10px;
     align-items: center;
     justify-content: center;
 }
@@ -433,7 +432,7 @@ a.explore {
     margin-top: 10px;
 }
 
-.body .spsace-above {
+.body .space-above {
     margin-top: 10px;
 }
 

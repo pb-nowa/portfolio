@@ -23,10 +23,10 @@ const about = () => {
                         </p>
                         
                     </div>
-                    <h2>WHAT I'M LOOKING FOR</h2>
+                    <h2 className="space-above">WHAT I'M LOOKING FOR</h2>
                     <p>As a former employee of the entertainment industry, I have really enjoyed working in fast-paced collaborative environments. I hope to work somewhere where creativity is expected and communication is king. 
                     I am a lifelong learner and always looking to pick up new skills.</p>
-                    <h2>ACHIEVEMENTS</h2>
+                    <h2 className="space-above">ACHIEVEMENTS</h2>
                     <p>I am a graduate of App Academy, a top tier full-stack software development intensive, based in the heart of San Francisco. I am a fast learner, completing my undergraduate degree at California State University, Northridge in 3 years, and earning the Dean's Award for the College of Media, Arts, and Communications. I then received my Master's from the University of Southern California in its accelerated 1-year Screen Scoring (music technology and film) program, which is recognized as #1 in the world as part of the Thornton Conservatory and the School of Cinematic Arts.</p>
                     <br/>
 
@@ -55,7 +55,7 @@ const about = () => {
                             <li>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</li>
                         </div>
                     </div>
-                <h2>EDUCATION</h2>
+                <h2 className="space-above">EDUCATION</h2>
                 <ul className="list">
                     <li>App Academy | Full Stack Web Development Intensive</li>
                     <li>University of Southern California | M.M. Screen Scoring (Music Composition and Audio Technologies)</li>

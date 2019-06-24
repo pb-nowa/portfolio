@@ -58,9 +58,9 @@ class Pokenalysis extends React.Component {
                             </p>
                             <h3 className="features-title">FEATURES</h3>
                             <ul className="features-list">
-                                <li className="feature-item">&#8226; Intuitively drag and drop a Pokemon into your team for detailed statistics on its strengths and weaknesses.</li>
-                                <li className="feature-item">&#8226; Quickly search by name or filter by type. </li>
-                                <li className="feature-item">&#8226; Share and like other teams to stay up to date with the current meta and top builds.</li>
+                                <li className="feature-item">Intuitively drag and drop a Pokemon into your team for detailed statistics on its strengths and weaknesses.</li>
+                                <li className="feature-item">Quickly search by name or filter by type. </li>
+                                <li className="feature-item">Share and like other teams to stay up to date with the current meta and top builds.</li>
                             </ul>
                             <h3 className="features-title">DETAILS</h3>
                             <p>Pokenalysis is a data driven app. Although there are other apps that accomplish similar goals, Pokenalysis
