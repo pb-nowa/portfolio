@@ -53,7 +53,7 @@ const about = () => {
                     <li>University of Southern California | M.M. Screen Scoring (Music Composition and Audio Technologies)</li>
                     <li>California State University, Northrdige | B.M. Media and Commercial Composition</li>
                 </ul>
-                <p>Checkout my full <a className="hyperlink" href="">resume</a></p>
+                    <p>Checkout my full <a className="hyperlink" href="/assets/RESUME - Preston Nowakowski.pdf">resume</a></p>
 
             </div>
         </div>
