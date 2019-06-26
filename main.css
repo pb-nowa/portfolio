@@ -484,30 +484,24 @@ a.hyperlink:hover {
 
 .technologies-about {
     display: flex;
+    flex-direction: column;
     font-family: 'PT Sans', sans-serif;
 }
 
-.technology-titles-container {
+.tech-list-container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
-}
-
-.technology-titles-container h3 {
+    justify-content: flex-start;
+    list-style: none;
     margin: 5px 10px 5px 0;
 }
 
-.technologies-about-tech {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+.tech-list-container p {
+    margin: 0 0 0 10px;
 }
 
-.technologies-about-tech li {
-    list-style-type: none; 
-    margin: 5px 10px 5px 10px;
+.tech-list-container h3 {
+    margin: 0 0 0 0;
 }
 
 ul.list {

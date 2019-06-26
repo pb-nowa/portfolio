@@ -44,16 +44,18 @@ const about = () => {
                     </ul>
                     <h2 className="space-above" >TECHNOLOGIES</h2>
                     <div className="technologies-about">
-                        <div className="technology-titles-container">
+                        <li className="tech-list-container">
                             <h3>LANGUAGES:</h3>
+                            <p>Ruby, JavaScript, SQL</p>
+                        </li>
+                        <li className="tech-list-container">
                             <h3>BACKEND:</h3>
+                            <p>Ruby on Rails, Express, PostgreSQL, MongoDB, Node</p>
+                        </li>
+                        <li className="tech-list-container">
                             <h3>FRONTEND:</h3>
-                        </div>
-                        <div className="technologies-about-tech">
-                            <li>Ruby, JavaScript, SQL</li>
-                            <li>Ruby on Rails, Express, PostgreSQL, MongoDB, Node </li>
-                            <li>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</li>
-                        </div>
+                            <p>React, Redux, jQuery, Webpack, AJAX, HTML, CSS, SCSS / Sass, git</p>
+                        </li>
                     </div>
                 <h2 className="space-above">EDUCATION</h2>
                 <ul className="list">
