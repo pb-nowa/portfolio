@@ -28,10 +28,8 @@ class Root extends React.Component {
                         <Link to="/projects/pokenalysis">
                             <h2>PROJECTS</h2>
                         </Link>
-                        <a className="fab fa-linkedin-in" href="https://github.com/pb-nowa">
-                        </a>
-                        <a className="fab fa-github" href="https://www.linkedin.com/in/preston-nowakowski/">
-                        </a>
+                        <a className="fab fa-linkedin-in" href="https://www.linkedin.com/in/preston-nowakowski/"></a>
+                        <a className="fab fa-github" href="https://github.com/pb-nowa"></a>
                     </ul>
                 </div>
                 <Switch>
