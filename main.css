@@ -516,3 +516,8 @@ ul.list {
 .mail-hyperlink:hover {
     color: rgb(124, 44, 44);
 }
+
+.contact {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}

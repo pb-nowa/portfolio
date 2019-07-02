@@ -13,11 +13,11 @@ class Root extends React.Component {
             <div className="main">
                 <div className="header">
                     <div className="contact">
-                        <h1>PRESTON NOWAKOWSKI</h1>
+                        <Link to="/about"><h1>PRESTON NOWAKOWSKI</h1></Link>
                         <div className="info">
-                            <h3>(925)321-9577</h3>
+                            <h3 className="contact">(925)321-9577</h3>
                             <h3>|</h3>
-                            <a className="mail-hyperlink" href="mailto:pb.nowa@gmail.com"><h3>pb.nowa@gmail.com</h3></a>
+                            <a className="mail-hyperlink" href="mailto:pb.nowa@gmail.com"><h3 className="contact">pb.nowa@gmail.com</h3></a>
                         </div>
                     </div>
 
