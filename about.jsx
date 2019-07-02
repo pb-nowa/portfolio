@@ -67,6 +67,7 @@ const about = () => {
                 </div>
             </div>
         </div>
+        
         <div className="footer">
             <div className="info">
                 <h3>(925)321-9577</h3>
