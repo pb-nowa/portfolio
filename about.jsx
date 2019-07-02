@@ -10,7 +10,7 @@ const about = () => {
                     <h1>ABOUT ME</h1>
                         <a href="https://www.linkedin.com/in/preston-nowakowski/"><h3>LinkedIn</h3></a>
                         <a href="https://github.com/pb-nowa"><h3>Github</h3></a>
-                        <a href="/assets/RESUME_PRESTON_NOWAKOWSKI.pdf"><h3>Resume</h3></a>
+    
                 </div>
                 <div className="body">
                     <div className="profile-container">
@@ -67,7 +67,7 @@ const about = () => {
                 </div>
             </div>
         </div>
-        
+
         <div className="footer">
             <div className="info">
                 <h3>(925)321-9577</h3>
