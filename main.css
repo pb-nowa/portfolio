@@ -1,8 +1,3 @@
-.main {
-    min-width: 973;
-    overflow: auto;
-}
-
 .tabs-container {
     display: flex;
     flex-direction: row;

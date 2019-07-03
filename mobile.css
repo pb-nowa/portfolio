@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    .main {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-page-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+}
