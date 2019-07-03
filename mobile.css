@@ -99,6 +99,7 @@
     }
 
     .project-tab {
+        box-sizing: border-box;
         padding: 5px;
     }
 
@@ -110,5 +111,39 @@
     #third {
         width: 100%;
         clip-path: none;
+    }
+
+    .display-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .project-image-container {
+        box-sizing: border-box;
+        min-width: 100vw;
+        height: 100vw;
+        border-radius: 0 0 0 0 / 0 0 0 0;
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-image {
+        transform: none;
+    }
+
+    .project-about {
+        width: 100%;
+    }
+
+    .about-top-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-top-header h1 {
+        font-size: 10vw;
+        margin: 5px 0 0 0;
     }
 }
