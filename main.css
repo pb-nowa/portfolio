@@ -446,9 +446,10 @@ a.explore {
 
 .profile {
     display: block;
-    height: 16vh;
-    width: 16vh;
+    height: 140px;
+    width: 140px;
     object-fit: contain;
+    border-radius: 2px;
 }
 
 .profile-summary {
