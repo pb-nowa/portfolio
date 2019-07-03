@@ -50,8 +50,10 @@ class Granular extends React.Component {
                             <div className="about-top-header">
                                 <h1>GRANULAR SYNTH</h1>
                                 <h2>-</h2>
+                                <div className="links-container">
                                 <a href="https://github.com/pb-nowa/Virtual-Synthesizer"><h3>Github</h3></a>
                                 <a href="https://granular-synth.herokuapp.com/"><h3>Live</h3></a>
+                                </div>
                             </div>
                             <p>Granular Synth is an interactive audio-visualizer. As the user interacts with the orb, the particles fly apart and the audio granulates.</p>
                             <h3 className="features-title">FEATURES</h3>
