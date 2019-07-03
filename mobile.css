@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+    body{
+        -webkit-text-size-adjust:none;
+    }
+
     .main {
         max-width: 600px;
         display: flex;
@@ -78,6 +82,8 @@
         width: 250px;
         margin: 0 10px 10px 10px;
         border-radius: 2px;
+        float: none;
+        display: block;
     }
 
     .profile-summary {
@@ -85,6 +91,7 @@
         font-size: 17px;
         margin-top: 10px;
         font-style: italic;
+        display: block;
     }
     .about-right {
         width: 100%;
@@ -148,6 +155,7 @@
     }
 
     .project-image {
+        display: block;
         transform: scale(0.5);
         object-fit: scale-down;
     }
