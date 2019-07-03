@@ -131,11 +131,13 @@
 
     #first {
         width: 100%;
+        -webkit-mask-clip: none;
         clip-path: none;
     }
 
     #third {
         width: 100%;
+        -webkit-mask-clip: none;
         clip-path: none;
     }
 
@@ -156,6 +158,7 @@
 
     .project-image {
         display: block;
+        -webkit-transform:  scale(0.5);
         transform: scale(0.5);
         object-fit: scale-down;
     }
