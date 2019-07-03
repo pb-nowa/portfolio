@@ -9,11 +9,43 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: max-content;
+    }
+
+    .header h1 {
+        font-size: 4.7vh;
+        margin: 20px 0 0 0;
+    }
+
+    .header h3 {
+        font-size: 20px;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info .contact {
+        font-size: 2vh;
+        margin: 10px 0 10px 0;
     }
 
     .contact {
         display: flex;
         flex-direction: column;
+    }
+
+    .toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0 10px 0;
+    }
+
+    .toolbar h2 {
+        font-size: 2h
     }
 
     .about-page-container {
@@ -24,6 +56,10 @@
 
     .about-left {
         width: 100%;
+    }
+
+    .profile-container {
+        
     }
 
     .about-right {
