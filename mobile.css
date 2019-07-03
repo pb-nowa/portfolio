@@ -3,6 +3,7 @@
         max-width: 600px;
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     .header {
@@ -14,6 +15,7 @@
     
     .body {
         margin: 10px 10px 0 10px;
+        height: max-content;
     }
 
     .header h1 {
@@ -146,7 +148,7 @@
     }
 
     .project-image {
-        transform: scale(0.55);
+        transform: scale(0.5);
         object-fit: scale-down;
     }
 
