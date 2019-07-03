@@ -30,8 +30,10 @@ class Pokenalysis extends React.Component {
                             <div className="about-top-header">
                                 <h1>POKENALYSIS</h1>
                                 <h2>-</h2>
-                                <a href="https://github.com/bmzhu2/Pokenalysis"><h3>Github</h3></a>
-                                <a href="http://pokenalysis.herokuapp.com/#/"><h3>Live</h3></a>
+                                <div className="links-container">
+                                    <a href="https://github.com/bmzhu2/Pokenalysis"><h3>Github</h3></a>
+                                    <a href="http://pokenalysis.herokuapp.com/#/"><h3>Live</h3></a>
+                                </div>
                             </div>
                             <p>Pokenalysis is a online tool for all players of the Pokemon videogames. Optimize your team by crafting, analyzing, and sharing with a whole world of other Pokemon enthusists.
                             </p>
